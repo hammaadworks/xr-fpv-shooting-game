@@ -1,70 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!--  -->
-    <title>VR MINI PROJECT</title>
+    <title>WebXR FPV Shooting Game</title>
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="new-age.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-  </head>
+</head>
 
-  <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand">Target Shooting Game using A-Frame WebVR</a>
-      </div>
-    </nav>
+<body id="page-top">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="#">WebXR FPV Shooting Game</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#how-to-play">How to Play</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/hammaadworks/xr-fpv-shooting-game"
+                                        target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-    <header class="masthead">
-      <div class="container h-100">
+<!-- Masthead -->
+<header class="masthead">
+    <div class="container h-100">
         <div class="row h-100">
-          <div class="col-md-7 col-sm-7 my-auto">
-            <div class="header-content mx-auto">
-            <p style="padding-top: 40px;"></p>
-              <h2 class="mb-5">Game Description:</h2>
-                <h5 class="mb-5">The Game Is Packed With 8 Adventurous WebVR Themes of A-Frame For You To Explore The 3D World</h5>
-              <h2 class="mb-5">How To Play:</h2>
-              <ul class="mb-5">
-                <h5><li><b>Space</b> - To Shoot at Targets</li>
-                <li><b>Arrow Keys</b> - For Forward, Backward, Left and Right Navigation</li>
-                <li><b>Mouse</b> - For Navigating the 3D space</li></h5>
-              </ul>
-              <a href="level1.html" class="btn btn-outline btn-danger btn-lg
-                js-scroll-trigger">Start Playing!</a>
+            <div class="col-md-7 col-sm-7 my-auto">
+                <div class="header-content mx-auto">
+                    <p style="padding-top: 40px;"></p>
+                    <h1 class="mb-5">WebXR FPV Shooting Game</h1>
+                    <a href="level1.html" class="btn btn-outline btn-info btn-lg
+                js-scroll-trigger"> Start Playing! </a>
+                </div>
             </div>
-          </div>
 
-          <div class="col-md-4 col-sm-4 my-auto">
-            <img src="intro.png" class="img-fluid" alt="">
-          </div>
+            <div class="col-md-5 col-sm-5 my-auto">
+                <img src="intro.png" class="img-fluid" alt="">
+            </div>
 
         </div>
-      </div>
-    </header>
+    </div>
+</header>
 
-    <footer>
-      <div class="container">
-        <p>A VR MINI PROJECT - Target Shooting Game using A-Frame WebVR</p>
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="#">Rahul Bijoor - 1PE17IS066</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Samarth S Kashyap - 1PE17IS075</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Sumukh Balu - 1PE17IS092</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Mohammed Hammaad Mateen - 1PE17IS108</a>
-          </li>
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>About the Game</h2>
+                <p>WebXR FPV Shooting Game is an immersive first-person shooter built with A-Frame. It offers eight
+                    unique VR environments to explore and test your targeting skills.</p>
+                <p>The Game Is Packed With 8 Adventurous WebVR Themes of A-Frame For You To Explore The 3D World</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="demo_speed.gif" class="img-fluid" alt="Game Preview">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How to Play Section -->
+<section id="how-to-play" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">How to Play</h2>
+        <ul class="list-group list-group-flush text-center mt-3">
+            <li class="list-group-item"><b>Space</b> - Shoot at targets</li>
+            <li class="list-group-item"><b>Arrow Keys</b> - Move forward, backward, left, and right</li>
+            <li class="list-group-item"><b>Mouse</b> - Navigate the 3D space</li>
         </ul>
-      </div>
-    </footer>
-</body>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>WebXR First Person View Shooting Game using A-Frame | <a
+            href="https://github.com/hammaadworks/xr-fpv-shooting-game" class="text-light" target="_blank">GitHub</a>
+    </p>
+</footer>
 
+</body>
 </html>

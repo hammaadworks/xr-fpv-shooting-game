@@ -5,7 +5,24 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+font-family: 'Lato', sans-serif;
+}
+
+.masthead {
+background: url('background.jpg') no-repeat center center;
+background-size: cover;
+padding: 100px 0;
+color: white;
+text-align: center;
+}
+
+.btn-custom {
+background-color: #dc3545;
+color: white;
+padding: 15px 30px;
+font-size: 20px;
+border-radius: 10px;
+text-transform: uppercase;
 }
 
 a {
@@ -56,24 +73,24 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #28334a;
+  color: #f75d42;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #28334a;
+  color: #fbd954;
 }
 
 @media (min-width: 992px) {
 
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #28334a;
+    color: #fbd954;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #28334a;
+    color: #fbd954;
   }
 } 
 
